@@ -1,0 +1,30 @@
+{
+  "name": "Loc Dang",
+  "version": "1.0.0",
+  "description": "Loc Dang — Photographer based in Amsterdam",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisaveryano/%5BNAME%5D.git"
+  },
+  "keywords": [],
+  "author": "Averyano",
+  "license": "MIT",
+  "homepage": "http://[HOMEPAGE]",
+  "bugs": {
+    "url": "https://github.com/chrisaveryano/[NAME]/issues"
+  },
+  "dependencies": {
+    "gsap": "^3.5.1",
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^4.0.6",
+    "lodash": "^4.17.21",
+    "parcel-bundler": "^1.12.4"
+  }
+}

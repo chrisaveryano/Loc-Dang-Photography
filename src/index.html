@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- <base href="https://www.averyano.com/" /> -->
+
+    <title>Loc Dang</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:site_name" content="Loc Dang" />
+    <meta property="og:title" content="Photographer" />
+    <meta property="og:description" content="Loc Dang is a photographer based in Amsterdam. He is a creative and passionate person who is always looking for new ways to express his creativity." />
+    <meta property="og:image" content="./img/preview-img.jpg">
+    <meta
+      name="keywords"
+      content="web design, horizontal, layout, gallery, photography, Amsterdam"
+    />
+    <meta name="author" content="Chris Averyano" />
+
+    <!-- Viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="HandheldFriendly" content="true" />
+
+    <!-- Appearance -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/sitelogo/av-180px.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/sitelogo/av-32px.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/sitelogo/av-16px.png"
+    />
+    <link rel="shortcut icon" href="./img/sitelogo/av-48px.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://use.typekit.net/vxy2fer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/base.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      document.documentElement.className = 'js';
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement('style');
+        return (
+          (t.innerHTML = 'root: { --tmp-var: bold; }'),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports('font-weight', 'var(--tmp-var)')
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          'Please view this demo in a modern browser that supports CSS Variables.'
+        );
+    </script>
+  </head>
+  <body class="loading">
+    <div class="av-logo">
+      <a href="https://www.averyano.com/">
+        <img src="./img/sitebyav.png" alt="site by Averyano">
+      </a>
+    </div>
+    <main data-scroll-container>
+      <div class="content">
+        <div class="gallery">
+          <figure class="cover-img">
+						<div class="gallery__item-imginner"
+						data-scroll
+            data-scroll-speed="1"
+						data-scroll-direction="horizontal"
+						style="background-image: url(./img/pexels-loc-dang-5214327.jpg)"></div>
+            <h2 class="gallery__text-inner" style="position: absolute;">Loc Dang</span>
+
+            <span class="gallery__text-inner ml5" style="font-size: 20px; font-weight: normal;">
+              Photography</span
+            >
+
+            <div class="social-media">
+              <a href="https://www.pexels.com/@timegrocery/" target="_blank"><img src="./img/pin.svg"></a>
+                <a href="https://www.instagram.com/timegrocery/" style="width: 20px;" target="_blank"><img src="./img/inst.svg"></a>
+            </div>
+          </figure>
+
+          <figure class="gallery__item" id="gi0">
+            <div class="gallery__item-img gallery__item-img--flow">
+              <div
+                class="gallery__item-imginner flow-up"
+                style="background-image: url(./img/pexels-loc-dang-5214329.jpg)"
+              ></div>
+            </div>
+            <figcaption>Facade of residential building with doors</figcaption>
+          </figure>
+          <figure
+            class="gallery__item"
+            id="gi1"
+          >
+            <div class="gallery__item-img gallery__item-img--flow">
+              <div
+                class="gallery__item-imginner flow-down"
+                style="background-image: url(./img/pexels-loc-dang-5214326.jpg)"
+              ></div>
+            </div>
+            <figcaption>
+              Unrecognizable person reading newspaper in street
+            </figcaption>
+          </figure>
+          <figure
+            class="gallery__item"
+            id="gi2">
+            <div class="gallery__item-img gallery__item-img--flow">
+              <div
+                class="gallery__item-imginner flow-up"
+                style="background-image: url(./img/pexels-loc-dang-5214313.jpg)"
+              ></div>
+            </div>
+            <figcaption>
+              Pouring Tea on a Cap
+            </figcaption>
+          </figure>
+					<figure class="cover-img">
+						<div class="gallery__item-imginner"
+						style="background-image: url(./img/pexels-loc-dang-1633299.jpg)"
+						id="view-switch"></div>
+            <figcaption style="display: none;">Woman Standing Beside Window</figcaption>
+          </figure>
+        </div>
+        
+      </div>
+			<section class="vertical-section" data-scroll-container data-scroll-section-id="section1" data-scroll-section-inview>
+        
+        <div class="vgallery">
+          <figure
+            class="gallery__item gallery__item--vw"
+            >
+            <div class="gallery__item-img">
+              <div
+              	data-scroll
+                data-scroll-speed="0.2"
+						    data-scroll-direction="horizontal"
+                class="gallery__item-imginner"
+                style="background-image: url(./img/pexels-loc-dang-1626557.jpg)"
+              ></div>
+            </div>
+            <figcaption>
+              Woman Sitting in Front of Mirror While Using Smartphone
+            </figcaption>
+          </figure>
+          <figure
+            class="gallery__item gallery__item--vw"
+          >
+            <div class="gallery__item-img">
+              <div
+              	data-scroll
+                data-scroll-speed="0.2"
+						    data-scroll-direction="horizontal"
+                class="gallery__item-imginner"
+                style="background-image: url(./img/pexels-loc-dang-1600130.jpg)"
+              ></div>
+            </div>
+            <figcaption>
+              Photo of Green-leafed Plant Beside Wall
+            </figcaption>
+          </figure>
+          <figure
+            class="gallery__item gallery__item--vw"
+          >
+            <div class="gallery__item-img">
+              <div
+              	data-scroll
+                data-scroll-speed="-0.2"
+						    data-scroll-direction="horizontal"
+                class="gallery__item-imginner"
+                style="background-image: url(./img/pexels-loc-dang-3921015.jpg)"
+              ></div>
+            </div>
+            <figcaption>
+              Clouds in blue sky in daylight
+            </figcaption>
+          </figure>
+        </div>
+        <div class="vgalleryclone"></div>
+      </section>
+      <section class="section-wrapper">
+        <div class="vgallery">
+          <figure class="cover-img cover-img--md ">
+              <div class="gallery__item-imginner"
+              data-scroll
+              data-scroll-speed="1"
+              data-scroll-direction="horizontal"
+              style="background-image: url(./img/pexels-loc-dang-2524145.jpg)"></div>
+              <figcaption>film negative</figcaption>
+          </figure>
+          <figure class="cover-img cover-img--md " style="margin-top: 10rem;">
+              <div class="gallery__item-imginner"
+              data-scroll
+              data-scroll-speed="-1"
+              data-scroll-direction="horizontal"
+              style="background-image: url(./img/pexels-loc-dang-2660348.jpg)"></div>
+              <figcaption>High-Angle Photo of Person Wearing Black Leather Shoes</figcaption>
+          </figure>
+        </div>
+        <div class="vgalleryclone"></div>
+      </section>
+      <section class="section-wrapper">
+        <figure class="cover-img">
+						<div class="gallery__item-imginner"
+            data-scroll
+            data-scroll-speed="1.5"
+						data-scroll-direction="vertical"
+						style="background-image: url(./img/pexels-loc-dang-2539639.jpg)"></div>
+						<figcaption style="display: none;">Woman Liking Lolipop</figcaption>
+        </figure>
+      </section>
+      <section class="section-wrapper">
+        <div class="vgallery" style="padding: 0 10%;">
+        <figure
+            class="gallery__item gallery__item--vw"
+          >
+            <div class="gallery__item-img">
+              <div
+                data-scroll
+                data-scroll-speed="2"
+                data-scroll-direction="vertical"
+                class="gallery__item-imginner"
+                style="background-image: url(./img/pexels-loc-dang-1648023.jpg)"
+              ></div>
+            </div>
+            <figcaption>
+              Woman Sitting in Front of Mirror While Using Smartphone
+            </figcaption>
+          </figure>
+        <figure class="gallery__item gallery__item--vh"
+              data-scroll
+              data-scroll-speed="-2"
+              data-scroll-direction="horizontal"
+              style="align-self: flex-start;">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              data-scroll
+              data-scroll-speed="1"
+              data-scroll-direction="horizontal"
+              style="background-image: url(./img/pexels-loc-dang-5237313.jpg)"
+            ></div>
+          </div>
+          <figcaption>
+            Young Asian man in garden
+          </figcaption>
+        </figure>
+        <figure class="gallery__item gallery__item--vh"
+              data-scroll
+              data-scroll-speed="2"
+              data-scroll-direction="horizontal"
+              style="align-self: flex-end;">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              data-scroll
+              data-scroll-speed="1"
+              data-scroll-direction="horizontal"
+              style="background-image: url(./img/pexels-loc-dang-5223522.jpg)"
+            ></div>
+          </div>
+          <figcaption>
+            Woman with White and Yellow Flowers on Her Face
+          </figcaption>
+        </figure>
+        <figure class="gallery__item gallery__item--vh"
+              data-scroll
+              data-scroll-speed="-2"
+              data-scroll-direction="horizontal"
+              style="align-self: flex-start;">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              data-scroll
+              data-scroll-speed="1"
+              data-scroll-direction="horizontal"
+              style="background-image: url(./img/pexels-loc-dang-8433972.jpg)"
+            ></div>
+          </div>
+          <figcaption>
+            Green Grass Field Under Blue Sky
+          </figcaption>
+        </figure>
+        <figure class="gallery__item gallery__item--vh"
+              data-scroll
+              data-scroll-speed="2"
+              data-scroll-direction="horizontal"
+              style="align-self: flex-end;">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              data-scroll
+              data-scroll-speed="1"
+              data-scroll-direction="horizontal"
+              style="background-image: url(./img/pexels-loc-dang-2421375.jpg)"
+            ></div>
+          </div>
+          <figcaption>
+            Woman Holding A Camera
+          </figcaption>
+        </figure>
+      </div>
+      <div class="vgalleryclone"></div>
+    </section>
+      <section class="section-wrapper">
+        <figure class="cover-img">
+						<div class="gallery__item-imginner "
+						data-scroll
+            data-scroll-speed="1"
+						data-scroll-direction="vertical"
+						style="background-image: url(./img/pexels-loc-dang-1600128.jpg)"></div>
+            <h2 class="gallery__text-inner gallery__text-inner--mobile" style="position: absolute; right: 5%;
+    bottom: 0;">Loc Dang</span>
+
+            <span class="gallery__text-inner gallery__text-inner--mobile ml5" style="font-size: 20px; font-weight: normal;">Photography</span>
+             <div class="social-media">
+              <a href="https://www.pexels.com/@timegrocery/" target="_blank"><img src="./img/pin.svg"></a>
+              <a href="https://www.instagram.com/timegrocery/" style="width: 20px;" target="_blank"><img src="./img/inst.svg"></a>
+            </div>
+          </figure>
+      </section>
+    </main>
+		
+    <svg class="cursor" width="20" height="20" viewBox="0 0 20 20">
+      <circle class="cursor__inner" cx="10" cy="10" r="5" />
+    </svg>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
