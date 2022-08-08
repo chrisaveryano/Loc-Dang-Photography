@@ -2,9 +2,9 @@
 
 Some ideas for horizontal smooth scroll layouts and animations powered by [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/).
 
-![Loc Dang - Photography](/*)
+![Loc Dang - Photography](https://loc-dang-photography.netlify.app/preview-img.fcec176e.jpg)
 
-[Demo](/*)
+[Demo](https://loc-dang-photography.netlify.app/)
 
 ## Installation
 
